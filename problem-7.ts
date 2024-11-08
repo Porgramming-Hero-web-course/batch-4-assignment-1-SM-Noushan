@@ -5,7 +5,7 @@
       public model: string,
       public year: number
     ) {}
-    getCarAge() {
+    getCarAge(): number {
       return new Date().getFullYear() - this.year;
     }
   }
